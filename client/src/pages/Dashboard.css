@@ -1,0 +1,44 @@
+body {
+    background-color: #f0f2f5; 
+    font-family: Arial, sans-serif; 
+}
+
+.dashboard-container {
+    max-width: 1200px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: white; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.dashboard-title {
+    text-align: center; 
+    margin-bottom: 20px; 
+    color: #333; 
+}
+
+.dashboard-content {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.task-form-container {
+    flex: 1; 
+    margin-right: 20px; 
+}
+
+.task-list-container {
+    flex: 2; 
+}
+
+@media (max-width: 768px) {
+    .dashboard-content {
+        flex-direction: column; 
+    }
+
+    .task-form-container {
+        margin-right: 0; 
+        margin-bottom: 20px; 
+    }
+}

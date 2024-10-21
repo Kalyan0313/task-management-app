@@ -1,0 +1,83 @@
+body {
+    background-color: #f0f2f5; 
+    font-family: Arial, sans-serif; 
+}
+
+.task-list-container {
+    max-width: 600px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: white; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.task-list-title {
+    text-align: center; 
+    margin-bottom: 20px; 
+    color: #333; 
+}
+
+.list-group {
+    list-style: none; 
+    padding: 0; 
+}
+
+.list-group-item {
+    padding: 15px; 
+    border: 1px solid #ced4da; 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+    transition: box-shadow 0.3s; 
+}
+
+.list-group-item:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+}
+
+.task-title {
+    margin: 0; 
+    color: #007bff; 
+}
+
+.task-description {
+    margin: 5px 0; 
+    color: #555; 
+}
+
+.task-status {
+    margin: 5px 0; 
+    color: #555; 
+}
+
+.task-due-date {
+    color: #888; 
+}
+
+.button-container {
+    display: flex; 
+    justify-content: flex-end; 
+    gap: 10px; 
+}
+
+.btn {
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+.btn-info {
+    background-color: #17a2b8; 
+    color: white; 
+}
+
+.btn-danger {
+    background-color: #dc3545; 
+    color: white; 
+}
+
+.btn:hover {
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+}

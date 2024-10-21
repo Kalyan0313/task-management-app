@@ -1,0 +1,50 @@
+.full-screen-navbar {
+  position: sticky; 
+  top: 0; 
+  width: 100%; 
+  background-color: #f8f9fa; 
+  z-index: 1030; 
+}
+
+.navbar {
+  padding: 1rem; 
+}
+
+.navbar-brand {
+  font-size: 1.5rem; 
+  color: #007bff; 
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center; 
+}
+
+.nav-link {
+  margin: 0 15px; 
+  font-weight: 500; 
+  color: #333; 
+  transition: color 0.3s; 
+}
+
+.nav-link:hover {
+  color: #007bff; 
+}
+
+.btn-outline-danger {
+  margin-left: 15px; 
+  transition: background-color 0.3s; 
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545; 
+  color: white; 
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+      flex-direction: column; 
+      align-items: center; 
+      margin-top: 10px; 
+  }
+}
